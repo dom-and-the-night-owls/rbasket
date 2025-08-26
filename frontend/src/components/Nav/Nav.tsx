@@ -17,13 +17,15 @@ const Nav = () => {
         </Button>
         <Button
           color="inherit"
-          href="https://github.com/dom-and-the-night-owls/requestbin"
+          href="https://github.com/dom-and-the-night-owls/rbasket"
+          target="_blank"
         >
           github
         </Button>
         <Button
           color="inherit"
-          href="https://github.com/dom-and-the-night-owls/requestbin/wiki/API-Documentation"
+          href="https://github.com/dom-and-the-night-owls/rbasket/wiki/API-Documentation"
+          target="_blank"
         >
           docs
         </Button>
