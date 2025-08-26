@@ -1,5 +1,5 @@
 {
-  "name": "requestbin",
+  "name": "rbasket",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,19 +11,19 @@
     "build:backend": "npm install && npm run tsc",
     "build:frontend": "rm -rf dist && cd ../frontend && npm install && npm run build && cp -r dist ../backend",
     "build": "npm run build:backend && npm run build:frontend && npm run db-init",
-    "nginx": "sudo mkdir -p /var/www && sudo cp -r dist /var/www/requestbin"
+    "nginx": "sudo mkdir -p /var/www && sudo cp -r dist /var/www/rbasket"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dom-and-the-night-owls/requestbin.git"
+    "url": "git+https://github.com/dom-and-the-night-owls/rbasket.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dom-and-the-night-owls/requestbin/issues"
+    "url": "https://github.com/dom-and-the-night-owls/rbasket/issues"
   },
-  "homepage": "https://github.com/dom-and-the-night-owls/requestbin#readme",
+  "homepage": "https://github.com/dom-and-the-night-owls/rbasket#readme",
   "dependencies": {
     "@types/express": "^5.0.1",
     "dotenv": "^16.5.0",
