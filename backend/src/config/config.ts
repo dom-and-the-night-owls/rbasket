@@ -32,7 +32,7 @@ const pgConfigSchema = z
     port: z.coerce.number().int().positive().optional(),
     user: z.string().optional(),
     pass: z.string().optional(),
-    database: z.string().default("requestbin"),
+    database: z.string().default("rbasket"),
   })
   .passthrough();
 

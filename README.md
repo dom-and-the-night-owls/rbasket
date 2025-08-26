@@ -1,6 +1,6 @@
-# <img align="center" src="frontend/public/Logo_Icon_100x100.png" alt="Logo" width="35" height="35"/> RequestBasket
+# <img align="center" src="frontend/public/Logo_Icon_100x100.png" alt="Logo" width="35" height="35"/> rBasket
 
-RequestBasket is a web service that allows you to create unique web hooks to capture, log, and inspect HTTP requests via public API or simple user interface.
+rBasket is a web service that allows you to create unique web hooks to capture, log, and inspect HTTP requests via public API or simple user interface.
 
 ## Preview
 
@@ -46,7 +46,7 @@ PORT=3000             # Port the backend server will run on
 # Postgres configuration
 PGHOST=localhost
 PGPORT=5432
-PGDATABASE=requestbin
+PGDATABASE=rbasket
 PGUSER=postgres
 PGPASSWORD=password
 
@@ -92,12 +92,12 @@ If serving on `nginx`:
 npm run nginx
 ```
 
-- copies contents of `dist/` to `/var/www/requestbin`
+- copies contents of `dist/` to `/var/www/rbasket`
 - dist/ should be built with `npm run build` or `npm run build:frontend` first.
 
 ### API
 
-- [API Documentation](https://github.com/dom-and-the-night-owls/requestbin/wiki/API-Documentation)
+- [API Documentation](https://github.com/dom-and-the-night-owls/rbasket/wiki/API-Documentation)
 
 ### Dependencies
 
